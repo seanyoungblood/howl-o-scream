@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 # CONFIGURATION
 # ============================================================
 
-# All times are measured relative to 5:00 PM.
+# All times are measured relative to 5:30 PM.
 START_TIME = 0
 HOUSES_OPEN = 90       # 7:00 PM relative to 5:30 PM
 DEADLINE = 420         # 12:30 AM
@@ -34,13 +34,8 @@ HOUSES = [
 
 # ============================================================
 # INPUT DATA
-# Populate each array with exactly 19 integer wait times.
+# Populate each array with exactly 15 integer wait times.
 #
-# Index 0 = 5:00 PM
-# Index 1 = 5:30 PM
-# Index 2 = 6:00 PM
-# ...
-# Index 18 = 2:00 AM
 #
 # Use -1 for houses while they are closed.
 # ============================================================
